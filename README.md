@@ -33,7 +33,7 @@ This project analyzes salary data to identify trends, distributions, and anomali
 ## How to Run
 1. Clone the repository:
    ```sh
-   git clone https://github.com/MoustafaMohamed01/San-Francisco-salaries-Data-analysis
+   git clone https://github.com/MoustafaMohamed01/San-Francisco-salaries-Data-analysis.git
    ```
 2. Install dependencies:
    ```sh
