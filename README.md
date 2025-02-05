@@ -48,11 +48,10 @@ This project analyzes salary data to identify trends, distributions, and anomali
 ## Dataset
 - The dataset contains salary-related information, including `BasePay`, `OvertimePay`, `OtherPay`, `Benefits`, `TotalPayBenefits`, and `TotalPay`.
 - Contains variables such as `Id`, `EmployeeName`, `JobTitle`, `Year`, `Notes`, `Agency`, and `Status`
+- The dataset was sourced from [Kaggle].
+- The dataset link: [https://www.kaggle.com/datasets/kaggle/sf-salaries].
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, create a branch, and submit a pull request.
 
-## Acknowledgments
-- The dataset was sourced from [Kaggle].
-- The dataset link: [https://www.kaggle.com/datasets/kaggle/sf-salaries].
 
