@@ -24,11 +24,35 @@ This project analyzes salary data to identify trends, distributions, and anomali
 4. Ensured TotalPay and TotalPayBenefits were correctly calculated.
 
 ## Visualizations & Insights
-- **Histograms** to analyze salary distributions.
-- **Line charts** for salary trends and expenditure trends over the years.
-- **Bar charts** for top-paid job roles.
-- **Boxplots** for detecting outliers in total compensation.
-- **Heatmaps** to visualize correlations between salary components.
+### Salary Distribution Analysis
+- **BasePay Distribution**  
+  ![BasePay Distribution](images/basepay_distribution.png)
+
+- **OvertimePay Distribution**  
+  ![OvertimePay Distribution](images/overtimepay_distribution.png)
+
+- **TotalPay Distribution**  
+  ![TotalPay Distribution](images/totalpay_distribution.png)
+
+### Salary Trends Over the Years
+- **Average BasePay per Year**  
+  ![Salary Trends: Average BasePay](images/salary_trends.png)
+
+### Job Roles with Highest Pay
+- **Top Paid Job Titles**  
+  ![Top Highest-Paid Job Titles](images/top_highest_paid_jobs.png)
+
+### Job Roles with Highest Overtime Pay
+- **Job Roles with Highest Overtime Pay**  
+  ![Highest Overtime Paid Job Roles](images/highest_overtime_paid_jobs.png)
+
+### Outlier Detection
+- **Boxplot for TotalPayBenefits**  
+  ![Boxplot for TotalPayBenefits](images/boxplot_totalpaybenefits.png)
+
+### Correlation Analysis
+- **Correlation Heatmap**  
+  ![Correlation Heatmap](images/correlation_analysis.png)
 
 ## How to Run
 1. Clone the repository:
@@ -36,9 +60,17 @@ This project analyzes salary data to identify trends, distributions, and anomali
    git clone https://github.com/MoustafaMohamed01/San-Francisco-salaries-Data-analysis.git
    ```
 2. Install dependencies:
-   ```sh
-   pip install pandas numpy matplotlib seaborn
+
+   Ensure you have Python **3.7+** installed. Then, install the         required libraries:  
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+    Alternatively, install manually:
+    ```sh
+   pip install numpy pandas matplotlib seaborn
    ```
+
 3. Run the Jupyter Notebook:
    ```sh
    jupyter notebook
@@ -53,5 +85,3 @@ This project analyzes salary data to identify trends, distributions, and anomali
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, create a branch, and submit a pull request.
-
-
